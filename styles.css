@@ -750,9 +750,25 @@ footer i{
 /* bonus about section for tablet  */
 
 @media (min-width: 769px) and (max-width: 1024px) { 
- 
+    .container{
+        padding:  20px;
+    }
+    .room-container, .news-container{
+        padding: 50px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 30px;
+        row-gap: 80px;
+        position: relative;
+    }
     
-    .about-info{
+    .room-card, .news-card {
+        width: 100%;
+     
+    
+    
+    }
+        .about-info{
         width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr;
